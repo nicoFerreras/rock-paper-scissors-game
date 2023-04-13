@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap" rel="stylesheet">
+
+
 </head>
-<script src="script.js"></script>
 <link rel="icon" href="icons8-tijeras-de-mano-17.png" sizes="16x16">
 <body>
+    <!-- Players score -->
+<div class="textScore">
+    <p class="leftText">Your Score</p>
+    <p class="rightText">Computer Score</p>
+</div>
+    <div class="score">
+        <div class= "score-container" id="leftScore">
+        </div>
+        <div class= "score-container" id="rightScore">
+        </div>
+    </div>
+    <div class="container">
+        <input class= "btn-14" type="button" value="rock"></input>
+        <input class= "btn-14" type="button" value="paper"></input>
+        <input class= "btn-14" type="button" value="scissors"></input>
+    </div>
+        <div id="result"></div>
+    <footer class="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FAEEE7" fill-opacity="1" d="M0,96L17.1,128C34.3,160,69,224,103,245.3C137.1,267,171,245,206,213.3C240,181,274,139,309,128C342.9,117,377,139,411,170.7C445.7,203,480,245,514,261.3C548.6,277,583,267,617,250.7C651.4,235,686,213,720,213.3C754.3,213,789,235,823,245.3C857.1,256,891,256,926,256C960,256,994,256,1029,245.3C1062.9,235,1097,213,1131,218.7C1165.7,224,1200,256,1234,261.3C1268.6,267,1303,245,1337,208C1371.4,171,1406,117,1423,90.7L1440,64L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg>
+    </footer>
+    <script src="script.js"></script>
     
 </body>
 </html>
