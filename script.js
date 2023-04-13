@@ -16,6 +16,7 @@ function playRound(playerSelection) {
   let computerSelection = getComputerChoice();
   let result = "";
   
+  
 
   if ((playerSelection == 'rock' && computerSelection == 'scissors') ||
       (playerSelection == 'paper' && computerSelection == 'rock') ||
@@ -45,6 +46,8 @@ function playRound(playerSelection) {
   document.getElementById("result").textContent = result;
   document.getElementById("leftScore").textContent = playerScore;
   document.getElementById("rightScore").textContent = computerScore;
+
+  
 }
 
 
