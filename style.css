@@ -28,7 +28,7 @@ body {
 }
 .btn-14 {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
+
   background-color: #000;
   background-image: none;
   color: rgb(15, 10, 10);
@@ -40,7 +40,7 @@ body {
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+
   padding: 0;
   text-transform: uppercase;
 }
@@ -52,7 +52,7 @@ body {
 }
 .btn-14 svg {
   display: block;
-  vertical-align: middle;
+
 }
 .btn-14 [hidden] {
   display: none;
@@ -61,7 +61,7 @@ body {
   background: #ECDCD2;
   border-radius: 99rem;
   border-width: 2px;
-  -webkit-mask-image: none;
+
   overflow: hidden;
   padding: 0.8rem 3rem;
   position: relative;
